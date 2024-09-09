@@ -21,7 +21,7 @@ body {
   width: 100%;
   scroll-behavior: smooth;
   /* height: 100%; */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right top,
     #1d0fbb,
     #0427bb,
@@ -36,7 +36,9 @@ body {
     #002cc2,
     #0a1ac4
   );
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background: rgb(16, 12, 87);
+  /* background: linear-gradient(180deg, rgba(16,12,87,1) 0%, rgba(18,13,102,1) 35%, rgba(24,54,125,1) 100%); */
   /* background-image: url("../34095.png"); */
   /* background-size: contain; */
 }
@@ -78,8 +80,7 @@ main {
   gap: 1.2rem;
 }
 
-#section-links {
-}
+#section-links {}
 
 #section-links ul {
   display: flex;
@@ -135,15 +136,15 @@ footer h3 {
   font-weight: 100;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: .5rem;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-image: linear-gradient(to right, #1d0fbb, #0427bb, #0035b8, #0040b5, #0e4ab0, #0d4ab1, #0b4bb1, #0a4bb2, #0042b8, #0038be, #002cc2, #0a1ac4);
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.7);
   border-radius: 10px;
 }
@@ -152,6 +153,7 @@ footer h3 {
   #section-formation {
     width: 70%;
   }
+
   #section-links ul {
     width: 70%;
   }
@@ -160,11 +162,13 @@ footer h3 {
     padding: 0 3rem;
   }
 }
+
 @media (min-width: 1200px) {
   #section-formation {
     /* border: 1px solid; */
     width: 40%;
   }
+
   #section-links ul {
     width: 40%;
   }
@@ -172,6 +176,7 @@ footer h3 {
   #section-links li {
     /* padding: 0 5rem; */
   }
+
   #section-links li:hover {
     background-color: rgba(255, 255, 255, 0.05);
     /* padding: 0 5rem; */
@@ -179,6 +184,4 @@ footer h3 {
 }
 
 
-@media (min-width: 1080px){
-
-}
+@media (min-width: 1080px) {}
